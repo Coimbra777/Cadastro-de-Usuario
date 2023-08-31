@@ -1,10 +1,12 @@
-import "./Main.css";
 import React from "react";
 import Header from "./Header";
 
-export default (props) => (
+const Main = (props) => (
   <React.Fragment>
-    <Header />
+    <Header {...props} />
+
     <main className="content">Conteúdo</main>
   </React.Fragment>
 );
+
+export default Main;
