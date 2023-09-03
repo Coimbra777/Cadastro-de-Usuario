@@ -23,7 +23,7 @@
 Certifique-se de ter o Node.js instalado.
 
  * Clone este repositório:  <br>
- git clone https://github.com/seu-usuario/crud-usuario-react.git
+ git clone https://github.com/Coimbra777/Cadastro-de-Usuario
 
  * Navegue até o diretório do projeto:  <br>
 cd crud/frontend - npm start
