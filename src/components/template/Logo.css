@@ -6,6 +6,7 @@ aside.logo {
 }
 
 aside.logo img {
+  display: none;
   padding: 0 15px;
   width: 150px;
   height: auto;
