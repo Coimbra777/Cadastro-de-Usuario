@@ -11,3 +11,9 @@ aside.logo img {
   width: 150px;
   height: auto;
 }
+
+@media (max-width: 576px) {
+  aside.logo img {
+    display: none;
+  }
+}
