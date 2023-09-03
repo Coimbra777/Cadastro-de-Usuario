@@ -1,70 +1,51 @@
-# Getting Started with Create React App
+# Sistema CRUD de Cadastro de Usuário com React
+ Este é um exemplo de um sistema CRUD de cadastro de usuário desenvolvido com React. Ele permite criar, ler, atualizar e excluir registros de usuários em um aplicativo da web.
+ <br>
+ <br>
+![Captura de Tela (26)](https://github.com/Coimbra777/Cadastro-de-Usuario/assets/103074944/b4ced9cc-28a0-4d57-bfc2-25c535ffdff3)
+ <br>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Funcionalidades
+ * Cadastro de Usuário: Registre novos usuários fornecendo informações como nome, endereço de e-mail.
 
-## Available Scripts
+ * Listagem de Usuários: Veja uma lista de todos os usuários registrados.
 
-In the project directory, you can run:
+ * Edição de Usuário: Atualize as informações de um usuário existente.
 
-### `npm start`
+ * Exclusão de Usuário: Remova um usuário da lista.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# Tecnologias Utilizadas
+1. React
+2. React Router 
+3. API Fictícia 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# Instalação e Uso
+Certifique-se de ter o Node.js instalado.
 
-### `npm test`
+ * Clone este repositório:  <br>
+ git clone https://github.com/seu-usuario/crud-usuario-react.git
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+ * Navegue até o diretório do projeto:  <br>
+cd crud/frontend - npm start
 
-### `npm run build`
+ * Instale as dependências:  <br>
+npm install
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+ * Inicie a aplicação: <br>
+npm start
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+ A aplicação será executada no seu navegador padrão. Você pode começar a usar as funcionalidades de CRUD para gerenciar os registros de usuário.<br>
+*  OBS: Para que funciona corretamente as Rotas do programa , será necessário rodar a API Fictícia no terminal separado
+ comando: <br>
+ cd crud/backend npm start
+ 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Configuração da API e Autenticação (Opcional)
+Se você desejar conectar o aplicativo a uma API real e implementar a autenticação com Firebase ou outra solução, atualize as configurações de API e autenticação conforme necessário no código-fonte.
 
-### `npm run eject`
+# Contribuição
+Contribuições são bem-vindas! Se você encontrar algum problema ou quiser aprimorar o aplicativo CRUD de cadastro de usuário, fique à vontade para abrir uma issue ou enviar um pull request.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+# Licença
+Este projeto está licenciado sob a MIT License.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
